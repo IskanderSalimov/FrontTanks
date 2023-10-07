@@ -1,0 +1,110 @@
+body{
+    background-color: #fff;
+}
+.div1{
+    background-image: url(/image/штаб\ квартира.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    max-width: 2040px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    
+
+
+}
+.h1-i{
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1.1;
+    font-size: 2.2rem;
+    margin-top: 0;
+    box-sizing: inherit;
+    font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+    margin-left: 10%;
+    position: relative;
+    top: 30%;
+}
+.h1-game{
+    text-align: center;
+    color: #fff;
+    background-color: #FF711D!important;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+}
+.div2{
+    background-color: #d4d1d1fa;
+    width: 50%;
+    background-size: cover;
+    height: 2000px;
+    max-width: 2040px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.h1-padgame{
+    text-align: center;
+    color: #000000;
+    background-color: #aaaaaa;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: 10%;
+    font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+}
+.dusin{
+    margin-top: 10%;
+    margin-left: 2%;
+
+}
+.cliker{
+    margin-left: 35%;
+}
+.h1-padgame{
+    text-align: center;
+    color: #000000;
+    background-color: #aaaaaa;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: 5%;
+    font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+}
+.front1{
+    margin-top: 15%;
+    margin-left: 2%;
+
+}
+.front2{
+    margin-left: 58%;
+    position: relative;
+    bottom: 9.7%;
+    text-transform: uppercase;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.front3{
+    margin-left: 2%;
+    position: relative;
+    bottom: 3.2%;
+}
+.front4{
+    margin-left: 58%;
+    position: relative;
+    bottom: 12.8%;
+    text-transform: uppercase;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+
