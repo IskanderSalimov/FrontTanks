@@ -2,8 +2,9 @@
  @media screen and (max-width: 980px) {
  header {
   background-color: rgba(39,39,43,.85);
+  display: flex;
   height: 80px;
-  width: 126%;
+  width: 150%;
   }
   .bgvideo {
     display: none;
@@ -100,11 +101,12 @@
     border: 0px;
     outline: none;
     margin-top: 15px;
+    padding: 1%;
   }
   ul{
     display: flex;
     justify-content : space-around;
-    margin-inline-end:5%;
+    margin-inline-end:1%;
     margin-left: -5%;
   }
   .fronttanks{
@@ -119,6 +121,7 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Shantell Sans', cursive;
     font-family: 'Skranji', cursive;
+
   }
   .play{
     margin-left: 13%;
@@ -137,6 +140,7 @@
     text-transform: uppercase;
     color: #f9f5e1;
     font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+
   }
   .xz{
     color: #fdfdfd;
@@ -148,16 +152,25 @@
     text-align: center;
     color: #f9f5e1;
     font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
-  
     
   }
-  
+  .youtube{
+    width: 6vh;
+    margin-left: 40%;
+    margin-top: 30%;
+  }
+  .telegram1{
+    margin-top: 50%;
+    width: 5vh;
+    margin-left: 20%;
+  }
   
   
 }
 @media (min-width: 1199px){
   .h1-dowload{
     margin-top: 5%;
+    margin-right: 40%;
     position: relative;
     z-index: 2;
     font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
@@ -186,7 +199,6 @@
     white-space: nowrap;
   }
   .h1-dowload2{
-  
     position: relative;
     z-index: 2;
     font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
@@ -213,7 +225,7 @@
     min-width: 180px;
     padding: 0 35px;
     white-space: nowrap;
-    padding: 22px 205px;
+    padding: 22px 40px;
     position: relative;
     bottom: 53px;
   }
@@ -236,7 +248,7 @@
     background-size: cover;
   }
   .ul{
-    margin-left: 60%;
+    margin-left: 50%;
     margin-bottom: 20%;
   }
   
@@ -252,11 +264,13 @@
     border: 0px;
     outline: none;
     margin-top: 15px;
+    
   }
+
   ul{
     display: flex;
     justify-content : space-around;
-    margin-inline-end:50%;
+    margin-inline-end:15%;
     margin-left: 12%;
   }
   nav{
@@ -265,6 +279,7 @@
     background-size: 4%;
     margin-left: 5%;
   }
+  
   .fronttanks{
     color: #050505;
     display: flex;
@@ -276,6 +291,8 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Shantell Sans', cursive;
     font-family: 'Skranji', cursive;
+    animation-name: anim;
+    animation-duration: 1s;
   }
   .play{
     margin-left: 23%;
@@ -292,6 +309,8 @@
     text-transform: uppercase;
     color: #f9f5e1;
     font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+    animation-name: anim;
+    animation-duration: 2s;
   }
   .xz{
     color: #fdfdfd;
@@ -302,8 +321,25 @@
     text-align: center;
     color: #f9f5e1;
     font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+    animation-name: anim;
+    animation-duration: 3s;
+  }
+  .youtube{
+    width: 13%;
+    margin-left: 5%;
+    margin-top: 1.2%;
+  }
+  .telegram1{
+    margin-top: 20%;
+    width: 6vh;
+    margin-left: 40%;
+  }
   
-    
+
+  @keyframes anim {
+    0%{
+        transform:translate(500px);
+    }
   }
   
 }
@@ -400,10 +436,5 @@ a{
 .next-lvl{
   text-align: center;
   
-}
-.telegram1{
-  margin-top: 20%;
-  margin-left: 10%;
-
 }
 
